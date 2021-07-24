@@ -11,9 +11,11 @@ NPM Library that get you the next working day from given date including Holidays
 ```
    import getNWDate from "getNextWorkingDayFromDate"
    getNWDate(fromDateObject,noOfDays,arrayOfHolidays)
-   
+```
+```   
    OUTPUT: Date Object
-
+```
+```
    - fromDateObject   : This is the from date. 
    - noOfDays.        : This is the no. of day after/before which you need to find your working date(Ex : +2 gets you 2 day after's working date/ -2 gets you 2 day before's working date)
    -  arrayOfHolidays :  Can be left empty if you dont need to include holidays

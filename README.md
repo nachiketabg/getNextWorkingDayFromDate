@@ -1,18 +1,18 @@
 # GetNextWorkingDayFromDate
 
-NPM Library that get you the next working day from given date
+NPM Library that get you the next working day from given date including Holidays(Holiday is optional)
 
 
 
 ### Dependencies
-* Need moment npm library (^2.29.1)
+   Need moment npm library (^2.29.1)
 
 ### Usage:
-
-import getNWDate from "getNextWorkingDayFromDate"
 ```
- - getNWDate(fromDateObject,noOfDays,arrayOfHolidays)
- - OUTPUT: Date Object
+   import getNWDate from "getNextWorkingDayFromDate"
+   getNWDate(fromDateObject,noOfDays,arrayOfHolidays)
+   
+   OUTPUT: Date Object
 
  * fromDateObject: This is the from date. 
  * noOfDays: This is the no. of day after/before which you need to find your working date(Ex : +2 gets you 2 day after's working date/ -2 gets you 2 day before's              working date)

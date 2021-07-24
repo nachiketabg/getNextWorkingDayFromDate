@@ -1,13 +1,19 @@
 {
   "name": "getnextworkingdatefromdate",
-  "version": "1.0.1",
-  "description": "get-next-working-date-from-date",
+  "version": "1.0.2",
+  "description": "NPM Library that get you the next working day from given date including Holidays(Holiday is optional)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "nachiketabg",
-  "license": "MIT",
+  "license": "",
+  "repository":{
+   "type":"git",
+   "homepage":"https://github.com/nachiketabg/getNextWorkingDayFromDate/blob/main/README.md",
+   "url":"https://github.com/nachiketabg/getNextWorkingDayFromDate.git"
+   }
   "dependencies": {
     "moment": "^2.29.1"
   }

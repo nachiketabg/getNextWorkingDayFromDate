@@ -26,8 +26,8 @@ NPM Library that get you the next working day from given date including Holidays
   getNWDate(moment('2021-07-22T11:10:58').format(), -2)
 
   OUTPUT: Moment<2021-07-22T11:10:58+05:30>
-
-
+  ```
+```
   getNWDate(moment('2021-07-23T11:10:58').format(), 2, ['2021-07-26','2021-07-27'])
 
   OUTUT: Moment<2021-07-29T11:10:58+05:30>

@@ -1,4 +1,4 @@
-# GetNextWorkingDayFromDate
+# GetNextWorkingDateFromDate
 
 NPM Library that get you the next working day from given date including Holidays(Holiday is optional)
 

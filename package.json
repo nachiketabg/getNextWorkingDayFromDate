@@ -1,0 +1,14 @@
+{
+  "name": "getnextworkingdatefromdate",
+  "version": "1.0.0",
+  "description": "get-next-working-date-from-date",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nachiketabg",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.29.1"
+  }
+}

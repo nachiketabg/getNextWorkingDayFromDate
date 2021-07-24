@@ -1,4 +1,4 @@
-exports.getNextWorkingDayFromDate = (fromDate, noDays, holidays) => {
+exports.getNextWorkingDateFromDate = (fromDate, noDays, holidays) => {
     const moment = require('moment')
     const checkIfWeekEnd = (date) => {
         const day = moment(date).format('ddd');

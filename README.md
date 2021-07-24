@@ -1,4 +1,4 @@
-# getnextworkingdatedromdate
+# getnextworkingdatefromdate
 
 NPM Library that gets you the next working day from given date including Holidays(Holiday is optional)
 
@@ -47,5 +47,5 @@ Nachiketa BG
 
 ## Version History
 ```
-  1.0.5
+  1.0.6
 ```

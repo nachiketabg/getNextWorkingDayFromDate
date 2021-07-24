@@ -23,12 +23,12 @@ NPM Library that get you the next working day from given date including Holidays
 ```
 ### Example:
 ```
-  getNWDate(moment('2021-07-22T11:10:58').format(), -2)
+  getNWDate(moment('2021-07-22T11:10:58').format(), -2) //Gets two working days behind calender without checking holidays
 
   OUTPUT: Moment<2021-07-22T11:10:58+05:30>
   ```
 ```
-  getNWDate(moment('2021-07-23T11:10:58').format(), 2, ['2021-07-26','2021-07-27'])
+  getNWDate(moment('2021-07-23T11:10:58').format(), 2, ['2021-07-26','2021-07-27']) //Gets two working days including a check on holidays
 
   OUTUT: Moment<2021-07-29T11:10:58+05:30>
 ```
